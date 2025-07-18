@@ -1,0 +1,38 @@
+@import url('https://fonts.cdnfonts.com/css/alodraca');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Alodraca', sans-serif;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    width: 300px;
+    align-items: center;
+    margin: 300px auto;
+    font-size: 50px;
+    border-radius: 10px;
+    background: #49c043;
+    background: radial-gradient(circle, rgba(73, 192, 67, 1) 24%, rgba(60, 99, 190, 1) 48%, rgba(139, 131, 136, 1) 69%, rgba(253, 187, 45, 1) 100%);
+    border-radius: 20px;
+    padding: 10px 20px;
+    box-shadow: 0px 0px 60px blue;
+}   
+
+.btn{
+    font-size: 60px;
+    background: none;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
